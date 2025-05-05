@@ -1,4 +1,4 @@
-import re
+
 
 """
 projekt_1.py: první projekt do Engeto Online Python Akademie
@@ -6,7 +6,7 @@ projekt_1.py: první projekt do Engeto Online Python Akademie
 author: Bc. Martin Novák
 email: m.novak44@seznam.cz
 """
-
+import re
 # Texty pro analýzu
 
 TEXTS = [
