@@ -1,4 +1,4 @@
-
+import re
 """
 projekt_1.py: první projekt do Engeto Online Python Akademie
 
@@ -34,8 +34,6 @@ represent several varieties of perch, as well as
 other freshwater genera and herring similar to those
 in modern oceans. Other fish such as paddlefish,
 garpike and stingray are also present.''']
-
-import re
 
 USERS = {
     "ann": "pass123",
