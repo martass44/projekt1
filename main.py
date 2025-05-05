@@ -6,7 +6,6 @@ author: Bc. Martin Novák
 email: m.novak44@seznam.cz
 """
 import re
-# Texty pro analýzu
 
 TEXTS = [
     '''
@@ -39,7 +38,7 @@ TEXTS = [
     garpike and stingray are also present.''',
 ]
 
-# Uživatelé pro přihlášení
+# Databáze uživatelů
 USERS = {
     "ann": "pass123",
     "bob": "123",
@@ -69,7 +68,7 @@ if not vyber.isdigit() or int(vyber) not in {1, 2, 3}:
 print("-" * 40)
 text = TEXTS[int(vyber) - 1]
 
-# Rozdělení textu na slova a odstranění interpunkce
+# Rozdělení textu a odstranění interpunkce
 words = text.split()
 cleaned_words = [re.sub(r'[^\w]', '', word) for word in words if word.strip() != '']
 
